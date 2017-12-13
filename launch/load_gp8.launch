@@ -1,0 +1,3 @@
+<launch>
+	<param name="robot_description" command="$(find xacro)/xacro --inorder '$(find yaskawa_gp8_support)/urdf/gp8.xacro'" />
+</launch>
